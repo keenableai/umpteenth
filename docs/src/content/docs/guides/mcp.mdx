@@ -44,6 +44,9 @@ GitHub hosts an MCP server that accepts a personal access token as a bearer toke
 
 The server's **Auth** column now shows **Bearer token**.
 
+A server that needs no credentials takes only a name and a URL.
+For web search without an API key, add `keenable` with the **URL** `https://api.keenable.ai/mcp-public` and leave **Headers** empty.
+
 Name each server after its service, `github` rather than `gh-final-v2`.
 The compile step matches the services a new job needs to the names of your enabled servers, ignoring case, so add servers before you create the jobs that use them.
 
